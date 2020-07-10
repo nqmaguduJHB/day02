@@ -20,17 +20,12 @@ void ft_putchar(char c)
 
 void ft_print_numbers(void)
 {
-	char number = '0';
+	char number
+	number = '0';
 	while(number <= '9')
 	{
 		ft_putchar(number);
 		number++;
 	}
-	return;
 }
 
-
-int main(void)
-{
-	ft_print_numbers();
-}
