@@ -35,7 +35,7 @@ void ft_print_comb(void)
 				ft_putchar(a);
 				ft_putchar(b);
  				ft_putchar(c);
-				if ( a == '7' && b = '8' && c = '9')
+				if ( a == '7' && b == '8' && c == '9')
 				{
 					break;
 				}
