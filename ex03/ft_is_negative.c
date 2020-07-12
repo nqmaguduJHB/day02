@@ -21,7 +21,7 @@ void ft_is_negative(int n)
 {
 	char negative = 'N';
 	char positive = 'P';
-	if (n >= 0)
+	if (n >= 0 || NULL)
 	{
 		ft_putchar(positive);
 	}
