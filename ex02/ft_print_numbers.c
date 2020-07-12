@@ -20,7 +20,7 @@ void ft_putchar(char c)
 
 void ft_print_numbers(void)
 {
-	char number
+	char number;
 	number = '0';
 	while(number <= '9')
 	{
