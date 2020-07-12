@@ -42,6 +42,10 @@ void ft_print_comb2(void)
 					ft_putchar(' ');
 					ft_putchar(c);
 					ft_putchar(d);
+					if ( c == '9' && d == '9')
+					{
+						break;
+					}	
 					ft_putchar(',');
 					ft_putchar(' ');
 					d++;
